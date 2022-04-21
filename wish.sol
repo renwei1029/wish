@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 contract Wish is Ownable{
 
     // 在事件日志中存储wish 
-    function tryWish(string memory wish)  public onlyOwner{
+    function tryWish(string memory id, string memory sig, string memory content)  public onlyOwner{
     }
 
 }
