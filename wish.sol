@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
+// 使用的编译器版本为：0.8.0
 
 pragma solidity ^0.8.0;
 
@@ -12,4 +13,4 @@ contract Wish is Ownable{
     }
 
 }
-// 使用的编译器版本为：0.8.0
+
